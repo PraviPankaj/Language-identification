@@ -1,4 +1,4 @@
-# Language Identification From Audio
+# Language Identification
 
 The repository contains the code that allows you to obtain a dataset for desired languages and train a neural network that's able to identify the language spoken in a recording as short as 3 seconds.
 Reference: https://github.com/HPI-DeepLearning/crnn-lid 
