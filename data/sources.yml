@@ -1,0 +1,19 @@
+# each language has a single short video, for script testing purposes
+
+ malayalam:
+   users:
+     -
+   playlists:
+     - https://www.youtube.com/playlist?list=PLKhH8nNxEDagoBy0lLsZgi2df2ftbDfV7
+
+ english:
+   users:
+     - 
+   playlists:
+     - https://www.youtube.com/playlist?list=PLsRNoUx8w3rOWa1dgVlBBE_oYuvw_Ya8C
+
+ hindi:
+   users:
+     - 
+   playlists:
+     - https://www.youtube.com/playlist?list=PLP-nGFpz3fa-4Ou58jb8w8mXxkPi5lHnz

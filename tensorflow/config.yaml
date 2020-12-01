@@ -1,0 +1,21 @@
+# Folder locations for training, validation and testing sets.
+
+
+train_data_dir: "../data/play_list_download/org_spectrograms/training"
+validation_data_dir: "../data/play_list_download/org_spectrograms/validation"
+test_data_dir: "../data/play_list_download/org_spectrograms/testing"
+
+
+model: "inception_resnet_v2_crnn"
+gpus: 0   # if you'll be training using CPU, just put 0
+
+#batch_size: 256
+batch_size: 10
+learning_rate: 0.001
+num_epochs: 10
+
+input_shape: [129, 150, 1]
+pixel_per_second: 50
+
+num_classes: 3
+label_names: ["malayalam", "english", "hindi"]
